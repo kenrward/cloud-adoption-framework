@@ -25,6 +25,7 @@ For any enterprise-grade environment, the following table outlines the suggested
 |Process  |Tool  |Purpose  |
 |---------|---------|---------|
 |Protect data|Azure Backup|Back up data and VMs in the cloud|
+|Prevent unexpected changes|Azure Resource Locks|Prevent other users in your organization from accidentally deleting or modifying critical resources|
 |Protect the environment|Azure Security Center|
 
 ::: zone target="docs"
@@ -113,3 +114,4 @@ After the replication job has finished, you can check the replication status, ve
 
 - [Azure Site Recovery overview](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview)
 - [Replicate an Azure VM to another region](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart)
+- [Azure Resource Locks](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-lock-resources)
